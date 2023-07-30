@@ -1,0 +1,14 @@
+package loops;
+
+import org.testng.annotations.Test;
+
+public class TestPrintNumberReverse {
+	
+@Test
+
+	public void printreverse() {
+		for(int i=10;i>=0;i--) {
+			System.out.println(i);
+		}
+	}
+}
